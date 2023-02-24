@@ -30,6 +30,12 @@ header{
     text-align: center;
 }
 
+.example{
+    background-color: yellow;
+    border: 3px red solid;
+    padding: 10px 25px;
+}
+
 /* main characters section */
 
 #char1-container{
@@ -71,6 +77,16 @@ main{
     display:grid;
     grid-template-columns: 30% 5% 30% 5% 30%;
     grid-template-areas:"char1 btn-start char2 btn-rules char3";
+}
+
+/* Game rules modal */
+#modal-rules{
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: steelblue;
+
 }
 
 footer{
